@@ -1,6 +1,5 @@
 # HANC
-*perpetual work in progress (for now)
-Please refer to the readme.txt file included in the package for instructions. Here it also is for your convenience:*
+*Work in progress. Please refer to the readme.txt file included in the package for instructions. Here it also is for your convenience:*
 
 
 Hello and thanks for doing your part in saving the environment!
@@ -18,6 +17,8 @@ To report a bug, please raise an issue on the GitHub page:
 
 MANIFEST (LIST OF FILES)
 ---
+apparently this section hates Markdown formatting and I can't be bothered to fix it
+
 readme.txt		          this file
 Shortcuts		            pin these to your desktop
 AutoHotkey v.1.1.34.03	necessary to run scripts
