@@ -2,6 +2,8 @@
 *Work in progress. Please refer to the readme.txt file included in the package for instructions. Here it also is for your convenience:*
 
 
+Drag the HANC folder to your Documents folder.
+
 Hello and thanks for doing your part in saving the environment!
 Please read through the entirety of this document before use.
 This is version 1.0.0.0 of HANC Package by Kaelan Yim.
