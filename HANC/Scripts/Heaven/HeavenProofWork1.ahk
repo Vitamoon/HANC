@@ -8,6 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance, Force
 DetectHiddenWindows On
 SetTitleMatchMode 1
+; not sure why this is set to 1 here
 
 Loop 1
 {
