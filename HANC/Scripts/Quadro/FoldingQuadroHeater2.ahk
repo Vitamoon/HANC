@@ -9,7 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 DetectHiddenWindows On
 SetTitleMatchMode 2
 
-TestDigit := (30.3)*(9/5)+32
+TestDigit := (15.88)*(9/5)+32
 DisplayNumber := Round(TestDigit, 1)
 
 ; Gui, Add, Text, cBlue, .  60                          70
@@ -31,7 +31,7 @@ Loop 600
 
 	GuiControl, Text, CurTemp, Current Temperature: %DisplayNumber% °F
 
-	File := FileOpen("OfflineElmorHeater3.ahk", "rw-d")
+	File := FileOpen("FoldingQuadroHeater3.ahk", "rw-d")
 
 	File.Seek(467)
 	File.Write(SliderOutput)
@@ -40,15 +40,14 @@ Loop 600
 
 	File.Close()
 	
-	Run OfflineElmorHeater3.ahk
+	Run FoldingQuadroHeater3.ahk
 
 	; MsgBox %Confirmer%
 }
 
 Failsafe:
 {
-	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FurKill.ahk
-	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\PrimeKill.ahk
+	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldKill.ahk
 	ExitApp
 }
 return

@@ -14,16 +14,16 @@ WriteString := Round(Numerical, 1)
 
 Loop 1
 {
-	File := FileOpen("OfflineElmorHeater4.ahk", "rw-d")
+	File := FileOpen("FoldingQuadroHeater4.ahk", "rw-d")
 
-	File.Seek(592)
+	File.Seek(758)
 	File.Write(WriteString)
-	File.Seek(592)
-	Output1 := File.Read(4)
+	File.Seek(758)
+	Output1 := File.Read(4) 
 
-	File.Seek(891)
+	File.Seek(922)
 	File.Write(WriteString)
-	File.Seek(891)
+	File.Seek(922)
 	Output2 := File.Read(4)
 
 	File.Close()
