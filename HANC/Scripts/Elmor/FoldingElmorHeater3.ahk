@@ -9,7 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 DetectHiddenWindows On
 SetTitleMatchMode 2
 
-Numerical := (70-32)*(5/9)
+Numerical := (80-32)*(5/9)
 WriteString := Round(Numerical, 1)
 
 Loop 1
@@ -21,9 +21,9 @@ Loop 1
 	File.Seek(592)
 	Output1 := File.Read(4)
 
-	File.Seek(756)
+	File.Seek(696)
 	File.Write(WriteString)
-	File.Seek(756)
+	File.Seek(696)
 	Output2 := File.Read(4)
 
 	File.Close()

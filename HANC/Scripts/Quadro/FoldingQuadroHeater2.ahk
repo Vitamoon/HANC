@@ -22,13 +22,11 @@ Gui, Show, w320 h160 Center, Temperature Control (°F)
 Gui, +AlwaysOnTop
 
 Gui, Submit, NoHide
-Sleep 1000
+Sleep 5000
 
 Loop 600
 {
 	Gui, Submit, NoHide
-	Sleep 60000
-
 	GuiControl, Text, CurTemp, Current Temperature: %DisplayNumber% °F
 
 	File := FileOpen("FoldingQuadroHeater3.ahk", "rw-d")
@@ -39,10 +37,11 @@ Loop 600
 	Confirmer := File.Read(2)
 
 	File.Close()
-	
-	Run FoldingQuadroHeater3.ahk
 
 	; MsgBox %Confirmer%
+
+	Run FoldingQuadroHeater3.ahk
+	Sleep 60000
 }
 
 Failsafe:

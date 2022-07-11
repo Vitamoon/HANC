@@ -18,23 +18,14 @@ DocNode := doc.selectSingleNode("//LogDataExport/Logdata/LogDataSet/value")
 
 curtemp := DocNode.text
 
-if curtemp < 24.1
+if curtemp < 19.4
 {
-	if WinExist("FAHCore")
-	{
-		Sleep 1
-	}
-	else
-	{
-		Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldResume.ahk
-	}
+	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldResume.ahk
 }
-else if curtemp >= 22.1
+else if curtemp >= 19.4
 {
-	if WinExist("FAHCore")
-	{
-		Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldPause.ahk
-	}
+
+	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldPause.ahk
 }
 
 ExitApp

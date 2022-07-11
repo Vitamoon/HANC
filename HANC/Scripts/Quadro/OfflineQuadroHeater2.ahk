@@ -9,7 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 DetectHiddenWindows On
 SetTitleMatchMode 2
 
-TestDigit := (15.88)*(9/5)+32
+TestDigit := (26.89)*(9/5)+32
 DisplayNumber := Round(TestDigit, 1)
 
 ; Gui, Add, Text, cBlue, .  60                          70
@@ -22,13 +22,11 @@ Gui, Show, w320 h160 Center, Temperature Control (°F)
 Gui, +AlwaysOnTop
 
 Gui, Submit, NoHide
-Sleep 1000
+Sleep 5000
 
 Loop 600
 {
 	Gui, Submit, NoHide
-	Sleep 60000
-
 	GuiControl, Text, CurTemp, Current Temperature: %DisplayNumber% °F
 
 	File := FileOpen("OfflineQuadroHeater3.ahk", "rw-d")
@@ -40,9 +38,10 @@ Loop 600
 
 	File.Close()
 	
-	Run OfflineQuadroHeater3.ahk
-
 	; MsgBox %Confirmer%
+
+	Run OfflineQuadroHeater3.ahk
+	Sleep 60000
 }
 
 Failsafe:

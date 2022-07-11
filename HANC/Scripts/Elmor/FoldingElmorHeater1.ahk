@@ -13,7 +13,7 @@ Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldKill.ahk
 Sleep 1000
 Run FAHControl
 Run FAHClient.exe
-Sleep 3000
+Sleep 5000
 WinMinimize FAHControl
 WinMinimize FAHClient.exe
 Sleep 1000
