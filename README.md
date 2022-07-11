@@ -36,7 +36,7 @@ OfflineQuadroCLICKME.lnk
 INSTRUCTIONS
 ---
 Put the "CLICK ME" files on your desktop or pin to your Start Menu or wherever else is convenient for you.
-Put the HANC folder in the directory C:\Users\%USERNAME%\Documents so everything works. See release notes for a picture of how it should be.
+Put the HANC folder in your Documents folder. See release notes for clarity.
 
 Quadro version is for any Aquacomputer fan control device (such as Quadro and Octo) and you need to configure Aquasuite to log to the AmbientTemperature.xml file provided in the Quadro folder. I recommend setting the logging interval to 60 seconds.
 Elmor version is for a special board which Elmor is helping me develop, the software for it is bundled with this download. The item isn't available to purchase nor would I be able to send you one anytime soon, so you can safely ignore it for now.
