@@ -1,5 +1,5 @@
 # HANC
-*Work in progress. Please refer to the readme.txt file included in the package for instructions. Here it also is for your convenience:*
+*Work in progress.*
 
 
 Hello and thanks for doing your part in saving the environment!
@@ -20,8 +20,9 @@ MANIFEST
 If you're missing one of these, either you have a modified copy (uh-oh)
 or an older version. Either way, please download the newest release.
 
-readme.txt - this file!
-folder named "Scripts"
+readme.md - this file!
+A folder named "HANC" which contains:
+A folder named "Scripts"
 AutoHotkey v1.1.34.03
 Prime95 v30.9.1-beta
 Elmor THUSB v1.0.0.0
@@ -36,7 +37,8 @@ OfflineQuadroCLICKME.lnk
 INSTRUCTIONS
 ---
 Put the "CLICK ME" files on your desktop or pin to your Start Menu or wherever else is convenient for you.
-Put the HANC folder in your Documents folder. See release notes for clarity.
+Put the HANC folder in your Documents folder (directory C:\Users\your username here\Documents). It should look like the image below.
+![image](https://user-images.githubusercontent.com/91440012/178359329-bedc20ab-79d9-46b8-815e-9193e02b5604.png)
 
 Quadro version is for any Aquacomputer fan control device (such as Quadro and Octo) and you need to configure Aquasuite to log to the AmbientTemperature.xml file provided in the Quadro folder. I recommend setting the logging interval to 60 seconds.
 Elmor version is for a special board which Elmor is helping me develop, the software for it is bundled with this download. The item isn't available to purchase nor would I be able to send you one anytime soon, so you can safely ignore it for now.
@@ -44,7 +46,8 @@ Elmor version is for a special board which Elmor is helping me develop, the soft
 The scripts are currently set to run for 600 minutes (10 hours). It's designed to run overnight.
 If you run into any problems, hit the Terminate button then spam F4 to force quit the scripts.
 
-If you don't already have AutoHotkey installed, you need to associate the .ahk file type with the bundled AutoHotkey executable, specifically AutoHotkeyU64.exe. You also need to install FurMark.
+If you don't already have AutoHotkey installed, you need to associate the .ahk file type with the bundled AutoHotkey executable, specifically "AutoHotkeyU64.exe".
+You also need to install Folding@home and/or FurMark for the offline version if you haven't already.
 
 Note: Currently I am unable to find a way to set F@H to run at power level "Full" using the command line. You'll need to manually set it to run at Full every time the script is run, which can be done by right clicking the F@H icon in the system tray (Bottom right of the screen. You may need to open up the overflow menu. I suggest dragging the icon out for future ease of use.) and selecting "Full". Medium, the default, is capped at 75% of the maximum processor usage.
 
