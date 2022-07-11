@@ -8,16 +8,24 @@ This is version 1.0.0.0 of HANC Package by Kaelan Yim.
 This software is still in a testing phase and may contain bugs.
 
 To use this program you must agree to the terms and conditions,
-located at the bottom of this file and at https://hanc.tech/software
+located at the bottom of this file.
 
 If you have any questions, contact me at kaelan@hanc.tech
 To report a bug, please raise an issue on the GitHub page:
-I am getting a organization URL sorted out so use here for now :)
+(I'm getting an organization URL sorted out so use here for now)
 
 
 INSTRUCTIONS
 ---
-see release notes, will probably make them here in the future
+Put the "CLICK ME" files on your desktop or pin to your Start Menu or wherever else is convenient for you.
+
+Quadro version is for any Aquacomputer fan control device (such as Quadro and Octo) and you need to configure Aquasuite to log to the AmbientTemperature.xml file provided in the Quadro folder. I recommend setting the logging interval to 60 seconds.
+Elmor version is for a special board which Elmor is helping me develop, the software for it is bundled with this download. The item isn't available to purchase nor would I be able to send you one anytime soon, so you can safely ignore it for now.
+
+The scripts are currently set to run for 600 minutes (10 hours). If you run into any problems, hit the Terminate button then spam F4 to force quit the scripts.
+Put the HANC folder in the directory C:\Users\%USERNAME%\Documents so everything works. See release notes for a picture of how it should be.
+
+If you don't already have AutoHotkey installed, you need to associate the .ahk file type with the bundled AutoHotkey executable, specifically AutoHotkeyU64.exe. You also need to install FurMark.
 
 
 DISCLAIMER
