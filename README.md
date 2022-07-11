@@ -15,15 +15,34 @@ To report a bug, please raise an issue on the GitHub page:
 (I'm getting an organization URL sorted out so use here for now)
 
 
+MANIFEST
+---
+If you're missing one of these, either you have a modified copy (uh-oh)
+or an older version. Either way, please download the newest release.
+
+readme.txt - this file!
+folder named "Scripts"
+AutoHotkey v1.1.34.03
+Prime95 v30.9.1-beta
+Elmor THUSB v1.0.0.0
+FurMark v1.30.0.0
+Folding@home v7.6.21
+FoldingElmorCLICKME.lnk
+FoldingQuadroCLICKME.lnk
+OfflineElmorCLICKME.lnk
+OfflineQuadroCLICKME.lnk
+
+
 INSTRUCTIONS
 ---
 Put the "CLICK ME" files on your desktop or pin to your Start Menu or wherever else is convenient for you.
+Put the HANC folder in the directory C:\Users\%USERNAME%\Documents so everything works. See release notes for a picture of how it should be.
 
 Quadro version is for any Aquacomputer fan control device (such as Quadro and Octo) and you need to configure Aquasuite to log to the AmbientTemperature.xml file provided in the Quadro folder. I recommend setting the logging interval to 60 seconds.
 Elmor version is for a special board which Elmor is helping me develop, the software for it is bundled with this download. The item isn't available to purchase nor would I be able to send you one anytime soon, so you can safely ignore it for now.
 
-The scripts are currently set to run for 600 minutes (10 hours). If you run into any problems, hit the Terminate button then spam F4 to force quit the scripts.
-Put the HANC folder in the directory C:\Users\%USERNAME%\Documents so everything works. See release notes for a picture of how it should be.
+The scripts are currently set to run for 600 minutes (10 hours). It's designed to run overnight.
+If you run into any problems, hit the Terminate button then spam F4 to force quit the scripts.
 
 If you don't already have AutoHotkey installed, you need to associate the .ahk file type with the bundled AutoHotkey executable, specifically AutoHotkeyU64.exe. You also need to install FurMark.
 
