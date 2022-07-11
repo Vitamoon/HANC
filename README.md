@@ -4,7 +4,7 @@
 
 Hello and thanks for doing your part in saving the environment!
 Please read through the entirety of this document before use.
-This is version 1.0.0.0 of HANC Package by Kaelan Yim.
+This is version 1.0.0.1 of HANC Package by Kaelan Yim.
 This software is still in a testing phase and may contain bugs.
 
 To use this program you must agree to the terms and conditions,
