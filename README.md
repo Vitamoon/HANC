@@ -12,7 +12,7 @@ located at the bottom of this file and at https://hanc.tech/software
 
 If you have any questions, contact me at kaelan@hanc.tech
 To report a bug, please raise an issue on the GitHub page:
-**https://github.com/** < I am getting a organization URL sorted out so ignore this for now :) 
+I am getting a organization URL sorted out so use here for now :)
 
 
 INSTRUCTIONS
