@@ -49,7 +49,7 @@ If you run into any problems, hit the Terminate button then spam F4 to force qui
 If you don't already have AutoHotkey installed, you need to associate the .ahk file type with the bundled AutoHotkey executable, specifically "AutoHotkeyU64.exe".
 You also need to install Folding@home and/or FurMark for the offline version if you haven't already.
 
-Note: Currently I am unable to find a way to set F@H to run at power level "Full" using the command line. You'll need to manually set it to run at Full every time the script is run, which can be done by right clicking the F@H icon in the system tray (Bottom right of the screen. You may need to open up the overflow menu. I suggest dragging the icon out for future ease of use.) and selecting "Full". Medium, the default, is capped at 75% of the maximum processor usage.
+If you encounter any bugs, I'd greatly appreciate you reporting them!
 
 
 DISCLAIMER
