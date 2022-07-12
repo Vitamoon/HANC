@@ -12,7 +12,7 @@ SetTitleMatchMode 2
 FileRead, result, C:\Users\%A_UserName%\Documents\HANC\Scripts\Elmor\AmbientTemperature.csv
 curtemp := SubStr(result, -5, 4)
 
-if curtemp < 24.1
+if curtemp < 21.1
 {
 	if WinExist("Geeks3D FurMark")
 	{
@@ -31,7 +31,7 @@ if curtemp < 24.1
 		Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\Prime95.lnk
 	}
 }
-else if curtemp >= 22.1
+else if curtemp >= 21.1
 {
 	if WinExist("Geeks3D FurMark")
 	{

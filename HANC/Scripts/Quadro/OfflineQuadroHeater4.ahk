@@ -18,7 +18,7 @@ DocNode := doc.selectSingleNode("//LogDataExport/Logdata/LogDataSet/value")
 
 curtemp := DocNode.text
 
-if curtemp < 25.1
+if curtemp < 21.1
 {
 	if WinExist("Geeks3D FurMark")
 	{
@@ -37,7 +37,7 @@ if curtemp < 25.1
 		Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\Prime95.lnk
 	}
 }
-else if curtemp >= 23.1
+else if curtemp >= 21.1
 {
 	if WinExist("Geeks3D FurMark")
 	{

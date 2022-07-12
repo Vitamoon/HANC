@@ -9,7 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 DetectHiddenWindows On
 SetTitleMatchMode 2
 
-TestDigit := (30.3)*(9/5)+32
+TestDigit := (27.6)*(9/5)+32
 DisplayNumber := Round(TestDigit, 1)
 
 ; Gui, Add, Text, cBlue, .  60                          70
@@ -31,9 +31,9 @@ Loop 600
 
 	File := FileOpen("FoldingElmorHeater3.ahk", "rw-d")
 
-	File.Seek(467)
+	File.Seek(456)
 	File.Write(SliderOutput)
-	File.Seek(467)
+	File.Seek(456)
 	Confirmer := File.Read(2)
 
 	File.Close()

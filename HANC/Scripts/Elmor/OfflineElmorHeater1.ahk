@@ -21,9 +21,9 @@ Loop 600
 {
 	File := FileOpen("OfflineElmorHeater2.ahk", "rw-d")
 
-	File.Seek(467)
+	File.Seek(456)
 	File.Write(curtemp)
-	File.Seek(467)
+	File.Seek(456)
 	Confirmer := File.Read(5)
 
 	File.Close()

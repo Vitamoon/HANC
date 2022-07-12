@@ -17,7 +17,12 @@ Sleep 5000
 WinMinimize FAHControl
 WinMinimize FAHClient.exe
 Sleep 1000
-Run FoldingElmorHeater2.ahk
+Run cmd.exe
+Sleep 500
+SendInput FAHClient.exe --send-command "option power full" {Enter}
+Sleep 500
+WinClose cmd.exe
+Run FoldingQuadroHeater2.ahk
 Sleep 1000
 
 FileRead, result, C:\Users\%A_UserName%\Documents\HANC\Scripts\Elmor\AmbientTemperature.csv
@@ -27,9 +32,9 @@ Loop 600
 {
 	File := FileOpen("FoldingElmorHeater2.ahk", "rw-d")
 
-	File.Seek(467)
+	File.Seek(456)
 	File.Write(curtemp)
-	File.Seek(467)
+	File.Seek(456)
 	Confirmer := File.Read(5)
 
 	File.Close()

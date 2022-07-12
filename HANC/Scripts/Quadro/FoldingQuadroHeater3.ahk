@@ -9,21 +9,21 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 DetectHiddenWindows On
 SetTitleMatchMode 2
 
-Numerical := (67-32)*(5/9)
+Numerical := (70-32)*(5/9)
 WriteString := Round(Numerical, 1)
 
 Loop 1
 {
 	File := FileOpen("FoldingQuadroHeater4.ahk", "rw-d")
 
-	File.Seek(758)
+	File.Seek(738)
 	File.Write(WriteString)
-	File.Seek(758)
+	File.Seek(738)
 	Output1 := File.Read(4) 
 
-	File.Seek(862)
+	File.Seek(838)
 	File.Write(WriteString)
-	File.Seek(862)
+	File.Seek(838)
 	Output2 := File.Read(4)
 
 	File.Close()

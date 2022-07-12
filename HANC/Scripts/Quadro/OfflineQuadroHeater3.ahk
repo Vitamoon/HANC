@@ -16,14 +16,14 @@ Loop 1
 {
 	File := FileOpen("OfflineQuadroHeater4.ahk", "rw-d")
 
-	File.Seek(758)
+	File.Seek(738)
 	File.Write(WriteString)
-	File.Seek(758)
+	File.Seek(738)
 	Output1 := File.Read(4)
 
-	File.Seek(1057)
+	File.Seek(1018)
 	File.Write(WriteString)
-	File.Seek(1057)
+	File.Seek(1018)
 	Output2 := File.Read(4)
 
 	File.Close()

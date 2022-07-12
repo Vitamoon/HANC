@@ -16,14 +16,14 @@ Loop 1
 {
 	File := FileOpen("OfflineElmorHeater4.ahk", "rw-d")
 
-	File.Seek(592)
+	File.Seek(578)
 	File.Write(WriteString)
-	File.Seek(592)
+	File.Seek(578)
 	Output1 := File.Read(4)
 
-	File.Seek(891)
+	File.Seek(858)
 	File.Write(WriteString)
-	File.Seek(891)
+	File.Seek(858)
 	Output2 := File.Read(4)
 
 	File.Close()
