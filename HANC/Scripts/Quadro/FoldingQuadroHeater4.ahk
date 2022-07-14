@@ -24,7 +24,6 @@ if curtemp < 21.1
 }
 else if curtemp >= 21.1
 {
-
 	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldPause.ahk
 }
 

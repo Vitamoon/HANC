@@ -12,13 +12,12 @@ SetTitleMatchMode 2
 FileRead, result, C:\Users\%A_UserName%\Documents\HANC\Scripts\Elmor\AmbientTemperature.csv
 curtemp := SubStr(result, -5, 4)
 
-if curtemp < 12.8
+if curtemp < 29.4
 {
 	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldResume.ahk
 }
-else if curtemp >= 12.8
+else if curtemp >= 29.4
 {
-
 	Run C:\Users\%A_UserName%\Documents\HANC\Scripts\Common\FoldPause.ahk
 }
 
