@@ -49,6 +49,15 @@ If you run into any problems, hit the Terminate button then spam F4 to force qui
 If you don't already have AutoHotkey installed, you need to associate the .ahk file type with the bundled AutoHotkey executable, specifically "AutoHotkeyU64.exe".
 You also need to install Folding@home and/or FurMark for the offline version if you haven't already.
 
+If you are running this program at your place of employment, you
+must first get permission from your network administrator and/or
+boss. This is especially true if you are installing the software
+on several machines. Many companies have policies that prohibit
+running unauthorized software. Violating that policy could result
+in termination and/or prosecution. Lucky for you, uninstallation
+is simple. Just delete the \HANC file directory! To uninstall F@H
+and FurMark run their uninstallers.
+
 If you encounter any bugs, I'd greatly appreciate you reporting them!
 
 
