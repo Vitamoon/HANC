@@ -43,11 +43,9 @@ Put the HANC folder in your Documents folder (directory C:\Users\your username h
 Quadro version is for any Aquacomputer fan control device (such as Quadro and Octo) and you need to configure Aquasuite to log to the AmbientTemperature.xml file provided in the Quadro folder. I recommend setting the logging interval to 60 seconds.
 Elmor version is for a special board which Elmor is helping me develop, the software for it is bundled with this download. The item isn't available to purchase nor would I be able to send you one anytime soon, so you can safely ignore it for now.
 
-The scripts are currently set to run for 600 minutes (10 hours). It's designed to run overnight.
-If you run into any problems, hit the Terminate button then spam F4 to force quit the scripts.
-
-If you don't already have AutoHotkey installed, you need to associate the .ahk file type with the bundled AutoHotkey executable, specifically "AutoHotkeyU64.exe".
-You also need to install Folding@home and/or FurMark for the offline version if you haven't already.
+If you don't already have AutoHotkey installed, you will need to
+associate the .ahk file type with the bundled AutoHotkey executable "AutoHotkeyU64.exe".
+You also need to install Folding@home (and/or FurMark for the offline version) if you haven't already.
 
 If you are running this program at your place of employment, you
 must first get permission from your network administrator and/or
@@ -55,10 +53,18 @@ boss. This is especially true if you are installing the software
 on several machines. Many companies have policies that prohibit
 running unauthorized software. Violating that policy could result
 in termination and/or prosecution. Lucky for you, uninstallation
-is simple. Just delete the \HANC file directory! To uninstall F@H
-and FurMark run their uninstallers.
+is simple. Just delete the \HANC file directory! To uninstall
+Folding@home and/or FurMark run their uninstallers.
 
 If you encounter any bugs, I'd greatly appreciate you reporting them!
+
+
+NOTES
+---
+The scripts are currently set to run for 600 minutes (10 hours).
+It's designed to run overnight. Contact me if you need it set
+for a different time interval. If you run into any problems, hit
+the Terminate button then spam F4 to force quit the scripts.
 
 
 DISCLAIMER
