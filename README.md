@@ -15,15 +15,11 @@ Requires HANC Elmor Kit or any Aquacomputer fan control device with an air tempe
 ### Installation
 Install Folding@home (use Express install). Do not change the directory. (Optional) Restart your computer afterwards.
 
-Open FAHControl and configure the user identity. Username does not matter. I would greatly appreciate if you joined Team ##### (HANC folding team)!
+Open FAHControl and configure the user identity. Username does not matter. I would greatly appreciate if you joined Team 1065137 HANC!
 
 Run HANC.exe (which is a 7-Zip self extracting archive) and find a good permanent location for the HANC folder - for example C:\Users\yourusernamehere\Documents.
 
-Associate AHK files to "AutoHotkeyU64.exe" in \HANC\AutoHotkey_1.1.37.01 if AutoHotkey is not already installed*. You can do this by attempting to open the Template.ahk file in the same directory, selecting "Try an app on this PC", scrolling down to "Look for another app", and manually navigating to the aforementioned folder and selecting the executable. Make sure to tick the "Always use this app" checkbox!
-
-*If AHK v2.0 or higher is installed, make sure you also install v1.1 as they are not directly compatible.
-
-Drag the appropriate included shortcut file ("CLICKME-FAH-devicetype") to a convenient location like Desktop or Start Menu. The bundled shortcuts meant for placing the HANC folder in \Documents and if the HANC folder is located in a different location you must update the shortcuts accordingly.
+Drag the appropriate included shortcut file ("CLICKME-FAH-devicetype") to a convenient location like Desktop or Start Menu. The bundled shortcuts are meant for placing the HANC folder in \Documents and if the HANC folder is located in a different location you may need to update the shortcuts accordingly.
 
 The HANC Elmor Kit Knob functionality has not yet been implemented. Coming soon!
 
