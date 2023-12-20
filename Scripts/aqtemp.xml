@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogDataExport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>AmbientTemperature</Name>
+  <ExportTime>2021-08-22T14:27:43.1951454-07:00</ExportTime>
+  <Logdata>
+    <LogDataSet>
+      <t>2021-08-22T21:27:42.609</t>
+      <value>26.89</value>
+      <name>Ambient Thermistor</name>
+      <unit>°F</unit>
+      <valueType>TEMPERATURE_C</valueType>
+      <device>QUADRO</device>
+    </LogDataSet>
+  </Logdata>
+</LogDataExport>
