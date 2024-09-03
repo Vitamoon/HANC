@@ -1,6 +1,8 @@
 # Heating Application with Network Computing (HANC)
 HANC is a program for reducing carbon emissions by capturing waste heat generated from computing. It will keep your room at a set temperature for as long as you'd like.
 
+# THIS VERSION IS DEPRECATED
+
 Currently only for Windows computers. Linux/MacOS coming soon.
 
 Requires HANC Elmor Kit or any Aquacomputer fan control device with an air temperature sensor (such as Quadro or Octo).
